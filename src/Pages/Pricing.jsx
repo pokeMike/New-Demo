@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import {pricingPlans} from './pricingPlan.jsx';
+import Navbar from '../Components/Navbar';
 
 export default function PricingPlans () {
   return (
     <div>
+        <Navbar />
         <div className='mx-auto max-w-7xl bg-white px-24 sm:px-6 lg:px-8'>
             <h2 className='text-3xl font-extrabold text-black sm:text-5xl sm:leading-tight sm:tracking-tight'>
                 Pricing Plans for Teams of all sizes
